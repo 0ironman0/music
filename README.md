@@ -16,7 +16,7 @@
 
 ### 数据备份
 #### 1. 备份命令格式
-mysqldump -u root -p music > ~/music.sql
+mysqldump -u root -p music > ./music.sql(保存在当前文件夹)
 
 #### 2. 恢复命令格式
-mysql -uroot -p music < music.sql
+mysql -uroot -p music < music.sql(恢复到当前文件夹)
