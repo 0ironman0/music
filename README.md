@@ -18,5 +18,5 @@
 #### 1. 备份命令格式
 mysqldump -u root -p music > ~/music.sql
 
-####2. 恢复命令格式
+#### 2. 恢复命令格式
 mysql -uroot -p music < music.sql
